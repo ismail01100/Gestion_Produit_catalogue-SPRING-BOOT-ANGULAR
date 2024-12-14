@@ -59,7 +59,7 @@ Access the backend at: http://localhost:8080
 # 3. Frontend Setup
   ### Navigate to the frontend folder (vscode )
   ```bash
-cd 02_frontend from 
+cd 02_frontend  
 ```
 ### Install dependencies
 ```bash
@@ -73,6 +73,12 @@ ng serve
 ## Verify the frontend is running:
 ```bash
 Access the frontend at: http://localhost:4200
+```
+---
+##  Note
+### Create database and in "application.properties" for the first time it should be "create" not "update"
+``` bash
+spring.jpa.hibernate.ddl-auto=create
 ```
 ---
 # 4. API Endpoints
