@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+  
+  footer {
+    margin-top: auto;
+  }
+  a.nav-link {
+    pointer-events: auto !important; /* Ensure links are clickable */
+  }
+  
+  
