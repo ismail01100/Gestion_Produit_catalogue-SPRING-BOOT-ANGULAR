@@ -45,7 +45,7 @@ git clone https://github.com/ismail01100/Gestion_Produit_catalogue.git
 
 # 2. Backend Setup
  ```bash
-cd Gestion_Produit_catalogue
+cd 01_backend
 ```
 ##  Run the backend
 ```bash
